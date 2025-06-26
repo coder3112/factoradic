@@ -56,14 +56,14 @@ def factoradic(decimal: int) -> int:
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("value")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("value")
 
-    # args = parser.parse_args()
-    # decimal = int(args.value)
+    args = parser.parse_args()
+    decimal = int(args.value)
 
-    # factoradic(decimal)
-    i = 1
-    while True:
-        factoradic(i)
-        i += 1
+    factoradic(decimal)
+    #i = 1
+    #while True:
+    #    factoradic(i)
+    #    i += 1
